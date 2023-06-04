@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCC EDN</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(23, 23, 85);
+        }
+        .container{
+            border: 2px solid black;
+            height: 80vh;
+            width: 60vw;
+            margin-left: 450px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            display: flex;
+            flex-flow: row;
+            gap: 80px;
+            border-radius: 5px;
+            background-color: whitesmoke;
+            box-shadow: 0 0 15px white;
+        }
+        .box-1{
+            /* border: 2px solid blue; */
+            height: 85%;
+            width: 40%;
+            margin-left: 80px;
+            margin-top: 50px;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        .box-2{
+            /* border: 2px solid darkmagenta; */
+            height: 85%;
+            width: 40%;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .imagem-1{
+            /* border: 2px solid darkblue; */
+            height: 90%;
+            width: 100%;
+        }
+        .titulo-1{
+            /* border: 2px solid darkred; */
+            height: 10%;
+            width: 90%;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 25px;
+        }
+        .texto-1{
+            /* border: 2px solid yellow; */
+            height: 70%;
+            width: 90%;
+        }
+        .texto-1 h1{
+            text-align: center;
+        }
+        .texto-1 p{
+            font-size: 20px;
+        }
+        .butoes{
+            /* border: 2px solid darkorchid; */
+            height: 10%;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+        .imagem-1 img{
+            height: 100%;
+            width: 100%;
+        }
+        #curriculo{
+            width: 6vw;
+            height: 3vh;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        #curriculo a{
+            text-decoration: none;
+            color: black;
+        }
+        #linkedin{
+            width: 6vw;
+            height: 3vh;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        #linkedin a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="box-1">
+                <div class="titulo-1">
+                    <h1>Gabriel Nunes</h1>
+                </div>
+                <div class="texto-1">
+                    <h1>Sobre</h1>
+                    <p>Cursando Engenharia de Software atualmente no 5° semestre, com experiencias em Cibersegurança, pentest, redes de computadores, Cloud(Aws), programação Back-end (C++,Java e Python) e Front-end (HTML,CSS, Java Script e Node.Js) e banco de dados com SQL. Tenho uma boa base em desenvolvimento. Pretendo e estudo a fundo sobre Cibersegurança, área que sou um verdadeiro entusiasta e pretendo seguir carreira.
+Atualmente adquirindo conhecimento sobre Cloud Computing(Aws) na Escola da Nuvem, Front-end no Senai, Cibersegurança de forma autodidata. Pretendo tirar certificações como (DCPT, LPIC, Aws Security e CompTIA Security +).
+Tenho um bom nível de inglês. Consigo ler e conversar em inglês.</p>
+                </div>
+                <div class="butoes">
+                    <div>
+                        <button id="curriculo"><a href="curriculo/Currículo EdN.zip" download="Currículo EdN.zip" type="application/zip">Curriculo</a></button>
+                    </div>
+                    <div>
+                        <button id="linkedin"><a href="https://www.linkedin.com/in/gabriel-nunes-6a3392234">Linkedin</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="box-2">
+                <div class="imagem-1">
+                    <img src="img/Screenshot_10.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container">
+            <div class="box-1">
+                <div>
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="box-2">
+                <div>
+                    <h1></h1>
+                </div>
+                <div>
+                    <p></p>
+                </div>
+                <div>
+                    <button></button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box-1">
+                <div>
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="box-2">
+                <div>
+                    <h1></h1>
+                </div>
+                <div>
+                    <p></p>
+                </div>
+                <div>
+                    <button></button>
+                </div>
+            </div>
+        </div> -->
+    </main>
+</body>
+</html>
